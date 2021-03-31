@@ -1,0 +1,84 @@
+@font-face {
+ font-family: "Raleway";
+ src: url("static/Raleway-Regular.ttf") format("ttf"),
+        url("tatic/Raleway-ExtraLight.ttf") format("ttf");}
+
+
+body {
+	font-family: "Raleway";
+
+}
+
+
+.page {
+	width: 1000px;margin:auto;
+}
+.cart {
+	border-radius:20px;
+	border:4px solid white;
+	width: 200px;
+	font-size:80%;
+	display: inline-block;
+	margin-right:30px;
+	background-color: white;
+	overflow:hidden;
+	vertical-align:top;
+	margin-top: 30px;
+}
+
+
+#populaire .cart {
+	width:200px;
+}
+
+.cart img {
+	width:100%;height:125px;
+}
+
+.cart .titre {
+	font-weight:bold;
+	font-size: 95%;
+}
+
+.cart .texte span {display:block; 
+	
+}
+
+.cart .texte {padding: 5px;}
+
+.cart .rating {
+	color:#F2F2F2;
+}
+.cart .rating .plein {
+	color:#0065FC;
+}
+
+span.bold {
+	font-weight: bold;display:inline-block !important; 
+}
+
+header {display:flex;justify-content: space-between;}
+
+img {width:300px;height:300px;}
+
+#lien {display;flex ;text-align: right; flex-direction: row;margin-right: 2px;}
+
+.fondgris {
+	background-color: #F2F2F2;
+	padding:20px;
+	border-radius:20px;
+
+}
+
+#hebergement {max-width: 75%;}
+
+.cart2 .rating {
+	color:#F2F2F2;
+}
+
+.cart2 .rating .plein {
+	color:#0065FC;
+
+}
+
+
